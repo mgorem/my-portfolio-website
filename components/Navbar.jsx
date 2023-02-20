@@ -25,7 +25,7 @@ const Navbar = () => {
         className="flex justify-between items-center 
                     w-full h-full px-2"
       >
-        <h2>
+        <h2 className="sm:text-xl">
           <span className="text-orange-500">OREM</span> GITONGA
         </h2>
         {/* <Image
@@ -56,7 +56,14 @@ const Navbar = () => {
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:border-b">
+                Timeline
+              </li>
+            </Link>
+            <Link href="/">
+              <li className="ml-10 text-sm uppercase hover:border-b">
+                Testimonials
+              </li>
             </Link>
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">
@@ -113,7 +120,10 @@ const Navbar = () => {
                 <li className="py-4 text-sm">Projects</li>
               </Link>
               <Link href="/">
-                <li className="py-4 text-sm">Skills</li>
+                <li className="py-4 text-sm">Timeline</li>
+              </Link>
+              <Link href="/">
+                <li className="py-4 text-sm">Testimonials</li>
               </Link>
               <Link href="/">
                 <li className="py-4 text-sm">Contact</li>
