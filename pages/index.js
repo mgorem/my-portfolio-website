@@ -23,10 +23,10 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
-      <Projects />
       <Timeline />
+      {/* <Projects /> */}
       <Testimonials />
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 }
