@@ -7,7 +7,7 @@ import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Timeline from "@/components/Timeline";
 import Testimonials from "@/components/Testimonials";
-import Contact from "@/components/Contact";
+// import Contact from "@/components/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +24,7 @@ export default function Home() {
       <Hero />
       <About />
       <Timeline />
-      {/* <Projects /> */}
+      <Projects />
       <Testimonials />
       {/* <Contact /> */}
     </>
