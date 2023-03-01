@@ -23,12 +23,13 @@ const Hero = () => {
           </h1>
           <h1 className="py-4 text-gray-700">A Software Developer.</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I’m a front-end web developer specialising in building (and
-            ocassionally designing) exceptional digital experiences. Currently,
-            I'm focused on building responsive front-end web applications,
-            integrating back-end technologies, and researching on the best{" "}
+            I’m a software developer specialising in building (and ocassionally
+            designing) exceptional digital experiences. Currently, I'm focused
+            on building responsive front-end web applications, integrating
+            back-end technologies, researching more on the best emerging
+            technologies:{" "}
             <span>
-              <b>Artificial Intelligence</b>
+              <b>Artificial Intelligence and Blockchain</b>
             </span>{" "}
             practices for web applications.
           </p>
