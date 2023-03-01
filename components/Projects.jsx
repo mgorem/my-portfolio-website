@@ -18,6 +18,14 @@ const Projects = () => {
           {/* What I&apos;ve Built <br /> */}
           Coming Soon...
         </h2>
+        <p>
+          {" "}
+          <a href="https://github.com/mgorem" target="_blank" rel="noreferrer">
+            Meanwhile, click here 👇️
+            <br />
+            to check on my github portfolio
+          </a>
+        </p>
         {/* <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Property Finder"
