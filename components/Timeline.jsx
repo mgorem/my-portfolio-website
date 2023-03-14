@@ -3,8 +3,9 @@ import React from "react";
 const Timeline = () => {
   return (
     <div
+      id="timeline"
       className="max-w-[1240px] w-full h-full 
-  mx-auto p-2 flex-col justify-center items-center"
+      mx-auto p-2 flex-col justify-center items-center"
     >
       <p className="uppercase text-xl tracking-widest text-[orangered]">Walk</p>
       <h2>My Journey 🚶‍♂️️</h2>

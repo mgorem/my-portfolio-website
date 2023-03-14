@@ -44,28 +44,28 @@ const Navbar = () => {
                 </li>
               </Link>
             ))} */}
-            <Link href="/">
+            <Link href="#home">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/">
+            <Link href="#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/">
+            <Link href="#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="/">
+            <Link href="#timeline">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Timeline
               </li>
             </Link>
-            <Link href="/">
+            <Link href="#tesimonials">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Testimonials
               </li>
             </Link>
-            <Link href="/">
+            <Link href="#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>

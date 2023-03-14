@@ -1,11 +1,10 @@
 // import Image from "next/image";
 // import Link from "next/link";
 import React from "react";
-// import propertyImg from "../public/assets/projects/property.jpg";
-// import cryptoImg from "../public/assets/projects/crypto.jpg";
-// import netflixImg from "../public/assets/projects/netflix.jpg";
-// import twitchImg from "../public/assets/projects/twitch.jpg";
-// import ProjectItem from "./ProjectItem";
+import outSourcingApp from "../assets2/outsource.png";
+import ecommerceApp from "../assets2/ecom.png";
+import bananaApp from "../assets2/banana.png";
+import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
@@ -16,42 +15,33 @@ const Projects = () => {
         </p>
         <h2 className="py-4">
           {/* What I&apos;ve Built <br /> */}
-          Coming Soon...
+          Recent Projects
         </h2>
-        <p>
-          {" "}
+        <p className="py-4">
           <a href="https://github.com/mgorem" target="_blank" rel="noreferrer">
-            Meanwhile, click here 👇️
-            <br />
-            to check on my github portfolio
+            For more Projects on my github portfolio, <u>click here </u>
           </a>
         </p>
-        {/* <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property Finder"
-            backgroundImg={propertyImg}
+            title="Taletn Outsourcing Web App"
+            backgroundImg={outSourcingApp}
             projectUrl="/property"
             tech="React JS"
           />
           <ProjectItem
-            title="Crypto App"
-            backgroundImg={cryptoImg}
+            title="Full Stack Ecommerce Website"
+            backgroundImg={ecommerceApp}
             projectUrl="/crypto"
             tech="React JS"
           />
           <ProjectItem
-            title="Netflix App"
-            backgroundImg={netflixImg}
+            title="Agricultural Product Tracing Website"
+            backgroundImg={bananaApp}
             projectUrl="/netflix"
             tech="React JS"
           />
-          <ProjectItem
-            title="Twitch UI"
-            backgroundImg={twitchImg}
-            projectUrl="/twitch"
-            tech="Next JS"
-          />
-        </div> */}
+        </div>
       </div>
     </div>
   );

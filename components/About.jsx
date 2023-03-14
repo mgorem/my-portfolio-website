@@ -5,6 +5,7 @@ import profilePhoto from "../assets2/portfolio-profile.jpg";
 const About = () => {
   return (
     <div
+      id="about"
       className="w-full md:h-screen 
     p-2 flex items-center py-16"
     >
@@ -30,7 +31,9 @@ const About = () => {
             animi sequi dignissimos blanditiis!
           </p>
           <p className="p-2 text-gray-600 underline cursor-pointer">
-            Check out some of my projects.
+            <a href="https://github.com/mgorem">
+              Check out My Projects on Github
+            </a>
           </p>
         </div>
         <div
