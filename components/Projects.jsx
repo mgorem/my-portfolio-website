@@ -26,19 +26,19 @@ const Projects = () => {
           <ProjectItem
             title="Taletn Outsourcing Web App"
             backgroundImg={outSourcingApp}
-            projectUrl="/property"
+            projectUrl="https://github.com/mgorem"
             tech="React JS"
           />
           <ProjectItem
             title="Full Stack Ecommerce Website"
             backgroundImg={ecommerceApp}
-            projectUrl="/crypto"
+            projectUrl="https://github.com/mgorem"
             tech="React JS"
           />
           <ProjectItem
             title="Agricultural Product Tracing Website"
             backgroundImg={bananaApp}
-            projectUrl="/netflix"
+            projectUrl="https://github.com/mgorem"
             tech="React JS"
           />
         </div>
