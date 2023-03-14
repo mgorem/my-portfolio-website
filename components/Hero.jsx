@@ -22,7 +22,7 @@ const Hero = () => {
           <h1 className="py-4 text-gray-700">
             Hello, I'm <span className="text-[orangered]">Orem</span>
           </h1>
-          <h1 className="py-4 text-gray-700">A Software Engineer.</h1>
+          <h1 className="py-4 text-gray-700">A Software Developer.</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
             I am a passionate software developer with a knack for building (and
             ocassionally designing) exceptional digital experiences, coaching
